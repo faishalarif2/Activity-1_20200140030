@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>NOTA PEMBELIAN BUAH</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>NOTA PEMBELIAN BUAH</div>
+        <hr><!-- comment -->
+        <p>Nama Buah            : <b th:text="${nama}"></b>
+        <p>Harga PerKilo        : Rp.<b th:text="${harga}"></b>
+        <p>Jumlah Beli(Kilo)    : <b th:text="${perkilo}"></b>
+        <p>Harga Buah           : Rp.<b th:text="${total}"></b>
+        <p>Besar Diskon(%)      : <b th:text="${disc}"></b>
+        <p>Jumlah Bayar         : Rp.<b th:text="${diskon}"></b>
+        <p>Total                : <b th:text="${totalbayar}"></b>
+    </body>
+</html>
